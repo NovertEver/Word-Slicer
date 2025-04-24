@@ -1,0 +1,26 @@
+# 临时文件
+__pycache__/
+*.pyc
+
+# 排除临时和数据文件夹的内容
+input_file/*
+output_file/*
+old_file/*
+unsupport_file/*
+temp_file/*
+
+# 保留文件夹结构
+!input_file/.gitkeep
+!output_file/.gitkeep
+!old_file/.gitkeep
+!unsupport_file/.gitkeep
+!temp_file/.gitkeep
+
+# Windows系统文件
+Thumbs.db
+desktop.ini
+
+# IDE文件
+.idea/
+.vscode/
+*.swp
