@@ -1,0 +1,4 @@
+python-docx>=0.8.10
+pywin32>=300
+tqdm>=4.62.0
+configparser>=5.0.0
